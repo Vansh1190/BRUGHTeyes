@@ -1,0 +1,63 @@
+.helo{
+    width: 525px;
+    height: 220px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.carousel-control-next-icon {
+     filter: invert(1);
+}
+.carousel-control-prev-icon {
+     filter: invert(1);
+}
+
+.container h1{
+    text-align: center;
+    font-size: medium
+    ;
+}
+.container h1 span{
+    color: green;
+}
+.head img{
+    width: 100%;
+}
+.flexboxhelo{
+    display: flex;
+   
+
+}
+.card {
+    width: 350px;
+}
+h2{
+    text-align: center;
+}
+.perfect-fit-sect{
+    display: flex;
+    flex-wrap: wrap;
+}
+.perfect-fit-sect img{
+    width: 98%;
+}
+
+@media (width<450px) {
+    .helo{
+        
+    width: 65%;
+    height: 90px;
+
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .flexboxhelo {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
